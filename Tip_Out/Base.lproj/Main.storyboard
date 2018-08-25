@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tip_Out-->
+        <!--Tip Out!-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tip_Out" customModuleProvider="target" sceneMemberID="viewController">
@@ -92,7 +92,7 @@
                             <outletCollection property="gestureRecognizers" destination="tDA-Xw-0RE" appends="YES" id="oPh-jD-orU"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip_Out" id="qZn-N8-CnC"/>
+                    <navigationItem key="navigationItem" title="Tip Out!" id="qZn-N8-CnC"/>
                     <connections>
                         <outlet property="billField" destination="wDI-PZ-yR0" id="imq-Mo-Cxo"/>
                         <outlet property="tipControl" destination="Vfl-oL-PWB" id="VqU-WV-kv2"/>
