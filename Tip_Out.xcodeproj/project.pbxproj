@@ -14,6 +14,8 @@
 		74527D542131FFBC004AD342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74527D522131FFBC004AD342 /* LaunchScreen.storyboard */; };
 		74527D5F2131FFBC004AD342 /* Tip_OutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74527D5E2131FFBC004AD342 /* Tip_OutTests.swift */; };
 		74527D6A2131FFBD004AD342 /* Tip_OutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74527D692131FFBD004AD342 /* Tip_OutUITests.swift */; };
+		74527D7B2132008E004AD342 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74527D792132008E004AD342 /* images.jpeg */; };
+		74527D7C2132008E004AD342 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 74527D7A2132008E004AD342 /* 1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		74527D652131FFBC004AD342 /* Tip_OutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tip_OutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74527D692131FFBD004AD342 /* Tip_OutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_OutUITests.swift; sourceTree = "<group>"; };
 		74527D6B2131FFBD004AD342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74527D792132008E004AD342 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		74527D7A2132008E004AD342 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		74527D482131FFBC004AD342 /* Tip_Out */ = {
 			isa = PBXGroup;
 			children = (
+				74527D782132006B004AD342 /* images */,
 				74527D492131FFBC004AD342 /* AppDelegate.swift */,
 				74527D4B2131FFBC004AD342 /* ViewController.swift */,
 				74527D4D2131FFBC004AD342 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				74527D6B2131FFBD004AD342 /* Info.plist */,
 			);
 			path = Tip_OutUITests;
+			sourceTree = "<group>";
+		};
+		74527D782132006B004AD342 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				74527D7A2132008E004AD342 /* 1.jpeg */,
+				74527D792132008E004AD342 /* images.jpeg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74527D7C2132008E004AD342 /* 1.jpeg in Resources */,
 				74527D542131FFBC004AD342 /* LaunchScreen.storyboard in Resources */,
+				74527D7B2132008E004AD342 /* images.jpeg in Resources */,
 				74527D512131FFBC004AD342 /* Assets.xcassets in Resources */,
 				74527D4F2131FFBC004AD342 /* Main.storyboard in Resources */,
 			);
